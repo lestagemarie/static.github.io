@@ -1,3 +1,145 @@
-h1 {
-  color: red;
+body {
+  margin:0px;
+  padding: 0px;
+  font-family: futura;
+  background-color: white;
+}
+
+h1{
+  color: #2738;
+  font-size: 38px;
+  font-family: 'Futura';
+}
+
+p {
+  font-size: 24px;
+}
+
+header{
+  background-color: #FEFEE2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Futura;
+}
+
+.navbar a {
+  text-decoration: none;
+  background: #FAA;
+  color: #000;
+}
+
+.navbar a:hover {
+  background-color: #FAB;
+  color:#FFF;
+}
+
+
+ul, h3 {
+  text-align: left;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link{
+  display: flex;
+  margin: 5px;
+  padding:2px;
+  border-radius: 5px;
+}
+
+.suggestion {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.border-red {
+  border: 10px solid red;
+}
+
+.logo{
+  width: 90px;
+}
+
+
+
+.slider{
+  max-width: 100%;
+}
+
+.slider img{
+  width: 100%;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:50px;
+}
+
+.LetM{
+  width: 500px;
+}
+
+.description{
+  width: 600px;
+}
+
+.container-exemples{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:50px;
+}
+
+.container-maps{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:50px;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:50px;
+}
+
+footer{
+  background-color: #FEFEE2;
+}
+
+.container-footer{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.rs-logo{
+  width: 30px;
+  margin:3px;
+}
+
+.container-rs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
